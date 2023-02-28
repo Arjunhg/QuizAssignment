@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cn"
+    android:orientation="vertical"
+    tools:context=".QuizTime">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#92000000"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btnText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="25sp"
+            android:fontFamily="@font/bungee_shade"
+            android:gravity="center"
+            android:text="CHOSE YOUR INTEREST"
+            android:textColor="@color/lavendar"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnP"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20sp"
+            android:backgroundTint="#4D000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/tortoise"
+            android:textColorHint="@color/tortoise"
+            android:text="PROGRAMMING" />
+
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20sp"
+            android:backgroundTint="#4D000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/tortoise"
+            android:textColorHint="@color/tortoise"
+            android:text="ASTROPHYSICS" />
+
+        <Button
+            android:id="@+id/btnAB"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20sp"
+            android:backgroundTint="#4D000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/tortoise"
+            android:textColorHint="@color/tortoise"
+            android:text="ABOUT EARTH" />
+
+        <Button
+            android:id="@+id/btnW"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20sp"
+            android:backgroundTint="#4D000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/tortoise"
+            android:textColorHint="@color/tortoise"
+            android:text="RANDOM" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:backgroundTint="#65000000"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="EXIT" />
+    </LinearLayout>
+</RelativeLayout>
